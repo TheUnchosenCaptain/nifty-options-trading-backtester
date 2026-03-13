@@ -25,6 +25,7 @@ backtester.py → core backtesting engine
 run_backtest.py → main execution script
 indicators.py → technical indicators
 kite_downloader.py → Zerodha data downloader
+
 ---
 
 ## Installation
