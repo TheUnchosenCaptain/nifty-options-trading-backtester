@@ -1,7 +1,7 @@
 from kiteconnect import KiteConnect
 
-API_KEY    = "45y3p3quci9j043t"
-API_SECRET = "l4hr0gs1n6fc8fk47htv2k7sf9xqdufs"
+API_KEY    = "enter your key"
+API_SECRET = "123abc"
 
 def main():
     kite = KiteConnect(api_key=API_KEY)
@@ -27,3 +27,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
