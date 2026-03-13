@@ -18,13 +18,29 @@ The system simulates trade execution, applies strategy logic, and generates perf
 ---
 
 ## Project Structure
-data/ → historical market data
-strategies/ → trading strategy implementations
 
-backtester.py → core backtesting engine
-run_backtest.py → main execution script
-indicators.py → technical indicators
-kite_downloader.py → Zerodha data downloader
+```
+nifty-options-trading-backtester/
+
+data/                 → historical market data  
+strategies/           → trading strategy implementations  
+
+backtester.py         → core backtesting engine  
+run_backtest.py       → main execution script  
+run_backtest_diagnostic.py → diagnostic testing script  
+
+indicators.py         → technical indicators  
+kite_downloader.py    → Zerodha data downloader  
+data_fetcher.py       → data retrieval utilities  
+download_data.py      → historical data downloader  
+
+config.yaml           → configuration settings  
+generate_token.py     → access token generation  
+
+requirements.txt      → project dependencies  
+README.md             → project documentation
+```
+
 
 ---
 
