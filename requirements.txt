@@ -1,0 +1,10 @@
+pandas
+numpy
+yfinance
+matplotlib
+ta   # technical analysis helpers (optional)
+pyyaml
+tabulate
+ta-lib
+tqdm
+kiteconnect
